@@ -1,0 +1,139 @@
+/* #2 #colorful #palette is:
+    * Background: #F5F5F5 (GREY 100)
+    * Primary Text: black
+    * Primary color: #3F51B5 (INDIGO)
+    * Primary color_text : white
+    * Accent color: #CDDC39 (LIME)
+    * Accent color_text: black
+    */
+
+
+/* #global */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Roboto', sans-serif;
+            
+            /* #spacing */
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+        }
+        
+        button, a {
+            /* #uppercase */
+            color: black;
+            text-transform: uppercase;     
+        }
+
+/* #app-bar */
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+/* #channels */
+        h2, ul {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        li {
+            /* #list has no bullet and background colour is white*/
+            list-style-type: none;
+            font-size: 16px;
+            box-sizing: border-box;
+            padding: 16px;
+            height: 48px;
+            border-bottom: 1px solid #F5F5F5;
+        }
+
+        li img {
+            /* #middle */
+            vertical-align: middle;
+        }
+
+        .highlight {
+            /* #highlight */
+            border-left: 4px solid #3F51B5;
+            color: #3F51B5;
+        }
+
+
+/* #tab-bar */
+        #tab-bar {
+            /* container with 80% width and white background */
+            background-color: white;
+        }
+
+        #tab-bar img {
+            /* #line-break */
+            display: block;
+            margin: 0px auto 4px;
+        }
+
+        #tab-bar button {
+            /* container with 80% width and white background */
+            text-align: center;
+            background-color: white;
+            border: none;
+            font-size: 13px;
+            width: 33%;
+            height: 72px;
+            padding: 16px;
+        }
+
+        #tab-bar .selected {
+            /* #highlighted */
+            border-bottom: 4px solid #3F51B5;
+            color: #3F51B5;
+        }
+
+/* #messages */
+
+        .message {
+            /* container with 80% width and white background */
+            width: 80%;
+            margin-left: 2.5%;
+            margin-bottom: 8px;
+        }
+
+        .message-own {
+            /* container with 80% width and white background */
+            width: 80%;
+            margin-left: 17.5%;
+            margin-bottom: 8px;
+        }
+
+        h3 {
+            /* #metadata */
+            font-size: medium;
+        }
+
+        strong {
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            text-transform: uppercase;
+        }
+
+        p {
+            /* #message */
+            background-color: white;
+            padding: 16px;
+        }
+
+        em {
+            /* #emphasized-information */
+            font-size: larger;
+            font-style: normal;
+        }
+
+    </style>
